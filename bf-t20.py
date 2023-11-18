@@ -733,7 +733,7 @@ class RT622(RT22Radio):
 class W31E(RT22Radio):
     """Baofeng W31E"""
     VENDOR = "Baofeng"
-    MODEL = "W31E"
+    MODEL = "T20"
 
     _ranges = [
                (0x0000, 0x0200, 0x10),
